@@ -4,9 +4,11 @@
 /**
  * main-print quote.
  *
- * description: print Dora's quote
+ * Description: print Dora's quote
  *
  * Return always 1 (success)
+ *
+ * Description: program should return 1
  */
 
 int main(void)
