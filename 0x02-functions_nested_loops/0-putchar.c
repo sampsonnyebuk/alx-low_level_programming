@@ -1,4 +1,5 @@
-#include <main.h>
+#include "main.h"
+#include <unistd.h>
 
 /**
  * main - prints _putchar
@@ -8,16 +9,8 @@
  * Return: 0 (Success)
  */
 
-int main(void)
+int _putchar(_putchar)
 {
-	char text[10] = "_putchar";
-	int i = 0;
-
-	for (i = 0; 1 < 9; i++)
-	{
-		_putchar(text[i]);
-	}
-	_putchar('\n');
-
+	_putchar("_putchar\n");
 	return (0);
 }
