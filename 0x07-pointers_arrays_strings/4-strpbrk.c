@@ -15,7 +15,7 @@ char *_strpbrk(char *s, char *accept)
 
 	while (s[a])
 	{
-		b = o;
+		b = 0;
 
 		while (accept[b])
 		{
