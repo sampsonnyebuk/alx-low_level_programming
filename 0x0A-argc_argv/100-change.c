@@ -59,6 +59,7 @@ return (coins);
 
 int main(int argc, char *argv[])
 {
+	int coins;
 
 	if (argc != 2)
 	{
