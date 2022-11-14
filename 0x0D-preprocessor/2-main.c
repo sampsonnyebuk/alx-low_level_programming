@@ -3,7 +3,9 @@
 
 /**
  * main - Gives the name of the executed file
- * Return always 0 for success else 1
+ * @argv: argument vector
+ * @argc: argument counts
+ * Return: always 0 for success else 1
  */
 
 int main(int argc, char **argv)
