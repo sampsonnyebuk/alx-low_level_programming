@@ -1,1 +1,4 @@
-#define ABS(x) x < 0 ? x * -1 : x
+#ifndef FUNCTION_LIKE_MACRO_H
+#define FUNCTION_LIKE_MACRO_H
+#define ABS(num) ((num) > (-1) ? (num) : (num * -1))
+#endif /* !FUNCTION_LIKE_MACRO_H */
